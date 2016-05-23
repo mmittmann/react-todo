@@ -2,26 +2,29 @@
 
 ### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+This apps requires [Node.js](https://nodejs.org/) v4+ to run.
 
-You need Gulp installed globally:
-
-```sh
-$ npm i -g gulp
-```
+You need Bower and Babel installed globally:
 
 ```sh
-$ git clone [git-repo-url] dillinger
-$ cd dillinger
-$ npm i -d
-$ NODE_ENV=production node app
+$ npm install -g bower babel-cli
 ```
 
-Requisitos: Node.js e NPM instalados
+You also need react.js lib installed - using bower to do this
 
-instale o bower primeiramente caso não possua: npm install -g bower
-instale o react através do bower: bower install --save react
+```sh
+$ bower install --save react
+```
 
-instale o babel-cli para fazer o parse dos arquivos do react: npm install -g babel-cli
+>In windows env
 
-Para windows: abra o powershell e execute o arquivo babel-react.bat
+```sh
+$ git clone [git-repo-url](https://github.com/mmittmann/react-todo.git) react-todo
+$ cd react-todo
+$ babel-react.bat
+```
+
+###  Items to do
+
+* Mark an item as done
+* Create separeted lists of tasks
