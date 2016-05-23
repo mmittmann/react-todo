@@ -1,0 +1,1 @@
+babel --presets es2015,react --watch components/ --out-dir dist/
