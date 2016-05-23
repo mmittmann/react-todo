@@ -19,7 +19,7 @@ $ bower install --save react
 >In windows env
 
 ```sh
-$ git clone (https://github.com/mmittmann/react-todo.git) react-todo
+$ git clone https://github.com/mmittmann/react-todo.git react-todo
 $ cd react-todo
 $ babel-react.bat
 ```
