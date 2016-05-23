@@ -1,0 +1,22 @@
+{
+  "name": "Todo-React",
+  "authors": [
+    "Murilo Mittmann da Cunha <mmittmann@outlook.com>"
+  ],
+  "description": "An sample todo app to learn react",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.1.0"
+  }
+}
